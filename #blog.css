@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hero-header {
+    width: 85%;
+    height: 1px;
+    min-height: 15vh;
+    background: #667eea;
+    border-radius: 50cap;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.hero-header+.container {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr !important;
+    flex-direction: unset !important;
+    padding-top: 0 !important;
+    justify-content: unset !important;
+    align-items: unset !important;
+}
+
+.hero-header+.container .left {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.hero-header+.container .right {
+    background: #f8f9fa;
+}
+
+h1 {
+
+    color: rgb(255, 255, 255) !important;
+    font-size: 35px;
+    /* Center the heading */
+    margin-bottom: 40px;
+    /* Space below the heading */
+}
+
+body {
+    background-color: #fffafa;
+    /* Dark background for the page */
+    color: #fff;
+    /* White text for contrast */
+    font-family: Arial, sans-serif;
+    /* Sets a clean font */
+    padding: 20px;
+    /* Adds spacing around the content */
+}
+
+.video-gallery {
+    display: grid;
+    /* Use CSS Grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* Automatically fit as many columns as possible, each at least 150px wide */
+    gap: 30px;
+    /* Space between videos */
+
+}
+
+.video-container {
+    border: 10px solid #fff;
+    /* White border around each video */
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Keeps the video inside the border */
+}
+
+.video1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Removes default inline spacing */
+
+}
+
+.video2 {
+    width: 100%;
+    /* Video fills the container width */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+    /* Removes default inline spacing */
+
+}
+
+.video3 {
+    width: 100%;
+    /* Video fills the container width */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+    /* Removes default inline spacing */
+
+}

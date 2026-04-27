@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hero-header {
+    width: 85%;
+    height: 1px;
+    min-height: 15vh;
+    background: #667eea;
+    border-radius: 50cap;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.hero-header+.container {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr !important;
+    flex-direction: unset !important;
+    padding-top: 0 !important;
+    justify-content: unset !important;
+    align-items: unset !important;
+}
+
+.hero-header+.container .left {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.hero-header+.container .right {
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(92, 37, 37, 0.3);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 800px;
+}
+
+.container .left {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 60px 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container .right {
+    padding: 60px 40px;
+    background: #f8f9fa;
+    overflow-y: auto;
+}
+
+.profiletext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 30px rgba(202, 0, 0, 0.3);
+}
+
+.profileImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profiletext h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.profiletext h2 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.info {
+    width: 100%;
+}
+
+.info .tittle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.info ul li .icon {
+    font-size: 20px;
+    color: #fff;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.info ul li .text {
+    word-break: break-word;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Right Section Styles */
+.right h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #667eea;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.right .section {
+    margin-bottom: 40px;
+}
+
+.right .section-item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.right .section-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.section-item h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.section-item .position {
+    font-size: 14px;
+    color: #667eea;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.section-item .date {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.section-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-tag {
+    background: #667eea;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .container .left {
+        padding: 40px 20px;
+    }
+
+    .container .right {
+        padding: 40px 20px;
+    }
+
+    .profiletext h2 {
+        font-size: 24px;
+    }
+
+    .profileImg {
+        width: 120px;
+        height: 120px;
+    }
+}
