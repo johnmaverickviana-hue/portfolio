@@ -257,13 +257,13 @@ h1 {
 
 .video2 {
 
-    width: 100%;
-    /* Video fills the container width */
+    padding: 5px;
+    width: 50%;
     height: auto;
-    /* Maintains aspect ratio */
-    display: block;
-    border: 1px solid #f9f8f8;
+    border: 5px solid #f9f8f8;
+
     /* Removes default inline spacing */
+
 
 }
 
