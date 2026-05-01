@@ -251,7 +251,6 @@ h1 {
     height: auto;
     border: 5px solid #f9f8f8;
 
-    /* Removes default inline spacing */
 
 }
 
@@ -262,18 +261,16 @@ h1 {
     height: auto;
     border: 5px solid #f9f8f8;
 
-    /* Removes default inline spacing */
+
 
 
 }
 
 .video3 {
     width: 100%;
-    /* Video fills the container width */
     height: auto;
-    /* Maintains aspect ratio */
     display: block;
-    /* Removes default inline spacing */
+
 
 }
 
