@@ -37,59 +37,65 @@
                         <li><a href="blogs.html">My Video</a></li>
                     </ul>
                 </nav>
-            </header>
-            <div class="container">
-                <div class="hero-pic">
-                    <img src="MAVS 1 copy.png" alt="profile pic">
-                </div>
-                <div class="hero-text">
-                    <h5>Hi I'm <span class="input">Videogrpaher</span></h5>
-                    <h1>Hi I'm JOHN MAVERICK E. VIAÑA</h1>
-                    <p>Corinthians 4:16-18 ~ So we do not lose heart. Though our outer self is wasting away, our inner
-                        self is being renewed day by day. For this light momentary affliction is preparing for us an
-                        eternal weight of glory beyond all comparison, as we look not to the things that are seen but to
-                        the things that are unseen. For the things that are seen are transient, but the things that are
-                        unseen are eternal.
+                <a header>
+                    <div class="container">
+                        <div class="hero-pic">
+                            <img src="MAVS 1 copy.png" alt="profile pic">
+                        </div>
+                        <div class="hero-text">
+                            <h5>Hi I'm <span class="input">Videogrpaher<span></h5>
+                            <h1>Hi I'm JOHN MAVERICK E. VIAÑA</h1>
+                            <p>The opening section gives an attractive picture of how the faithful person (who fears the
+                                LORD, i.e., who walks in his ways; cf. Ps. 112:1; Deut. 8:6) sees blessedness (or true
+                                happiness) in his home: he is able to work his farm and to eat the fruit of the labor of
+                                his hands (a covenant blessing, cf. Deut. 28:1–6 and contrast Deut. 28:33); he has a
+                                wife who is like a fruitful vine (i.e., a bringer of joy like wine, and the mother of
+                                children; cf. Ps. 127:3), and children like olive shoots around the table (i.e., full of
+                                energy and promise). Nothing suggests that such happiness is “automatic”; the rest of
+                                the Wisdom Literature fills out how those who fear the Lord work diligently, love their
+                                spouses well, and faithfully train their children in godliness. The focus of this psalm
+                                is the aura of divine blessing that surrounds such a family.
+                            </p>
+                            <div class="btn-group">
+                                <a href="blogs.html" class="btn active">Download CV</a>
+                                <a href="tel:09777083828" class="btn">#09777083828</a>
+                            </div>
+                            <div class="social">
+                                <a target="_blank"
+                                    href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F&_rdc=2&_rdr#"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a target="_blank"
+                                    href="https://www.linkedin.com/in/john-maverick-via%C3%B1a-b09852404/"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/@MavsV22"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                                <a target="_blank" href="https://www.tiktok.com/@mavs_viana"><i
+                                        class="fa-brands fa-tiktok"></i></a>
+                            </div>
 
-                    </p>
-                    <div class="btn-group">
-                        <a href="blogs.html" class="btn active">Download CV</a>
-                        <a href="tel:09777083828" class="btn">Contact</a>
+                            </h5>
+                        </div>
                     </div>
-                    <div class="social">
-                        <a target="_blank"
-                            href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F&_rdc=2&_rdr#"><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/john-maverick-via%C3%B1a-b09852404/"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/@MavsV22"><i
-                                class="fa-brands fa-youtube"></i></a>
-                        <a target="_blank" href="https://www.tiktok.com/@mavs_viana"><i
-                                class="fa-brands fa-tiktok"></i></a>
-                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+                    <script>
+                        var togglebtn = document.querySelector(".togglebtn");
+                        var na = document.querySelector(".navlink");
+                        var links = document.querySelector(".navlink li")
 
-                    </h5>
-                </div>
-            </div>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
-            <script>
-                var togglebtn = document.querySelector(".togglebtn");
-                var na = document.querySelector(".navlink");
-                var links = document.querySelector(".navlink li")
+                        togglebtn.addEventListener("click", function () {
+                            this.classList.toggle("click");
+                            nav.classList.toggle("open");
+                        });
 
-                togglebtn.addEventListener("click", function () {
-                    this.classList.toggle("click");
-                    nav.classList.toggle("open");
-                });
-
-                var Typed = new Typed(".input", {
-                    strings: ["Frontend Developer", "UX Designer", "Web Developer"],
-                    typedSpeed: 70,
-                    backSpeed: 55,
-                    loop: true
-                });
-            </script>
+                        var Typed = new Typed(".input", {
+                            strings: ["Frontend Developer", "UX Designer", "Web Developer"],
+                            typedSpeed: 70,
+                            backSpeed: 55,
+                            loop: true
+                        });
+                    </script>
 
 
 </body>

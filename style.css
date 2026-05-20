@@ -184,11 +184,18 @@ nav .navlinks li a {
 .hero-text h1 {
     color: #007ced;
     font-size: 3rem;
+    -webkit-text-stroke: 1px #c7c7c7;
+    text-stroke: 1px #e5e5e5;
 }
 
 .hero-text p {
-    color: #0c0000;
+    color: #000000;
     font-size: 18px;
+    margin-left: 2rem;
+    font-style: italic;
+
+
+
 }
 
 .btn-group {
@@ -207,8 +214,8 @@ nav .navlinks li a {
     box-shadow: 0 10px 10px -8 rgb(0 0 0/78%);
 }
 
-.btn.active {
-    border-color: #007ced;
+.btn.active-a {
+    border-color: #ffffff;
 
 }
 
@@ -221,12 +228,14 @@ nav .navlinks li a {
 
 .hero-text .social i:hover {
     color: #007ced;
+
     transform: rotate(360deg);
 }
 
 h1 {
     color: white;
     font-size: 35px;
+
 }
 
 
