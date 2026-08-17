@@ -185,7 +185,7 @@ nav .navlinks li a {
     color: #007ced;
     font-size: 3rem;
     -webkit-text-stroke: 1px #c7c7c7;
-    text-stroke: 1px #e5e5e5;
+    text-shadow: 1px 1px 0 #e5e5e5;
 }
 
 .hero-text p {
